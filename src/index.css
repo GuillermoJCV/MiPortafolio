@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.custom-form {
+		width: fit-content;
+		height: fit-content;
+	}
+
+	td, th {
+		@apply p-2;
+	}
+
+
+	thead {
+		@apply border-b-1;
+		@apply border-emerald-300;
+	}
+
+	tr > *:not(:first-child):not(:last-child){
+		@apply border-r-1;
+		@apply border-l-1;
+		@apply border-emerald-300;
+	}
+
+}
