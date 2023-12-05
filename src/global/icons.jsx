@@ -58,5 +58,9 @@ export function GoogleIcon({width="20", height="20"}) {
 	)
 }
 
+export function LoadingIcon({width="20", height="20"}) {
+	
+}
+
 
 //Remember to change the width and height *values*, the class to *className* and the fill-rule to *fillRule*
